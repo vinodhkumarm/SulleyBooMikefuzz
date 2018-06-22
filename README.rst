@@ -47,7 +47,7 @@ Sulley is affectionately named after the giant teal and purple creature
 from Monsters Inc. due to his fuzziness. Boofuzz is likewise named after
 the only creature known to have scared Sulley himself: Boo!
 
-.. figure:: _static/boo.png
+.. figure:: _static/sulley_boo_mike.JPG
    :alt: Boo from Monsters Inc
 
    Boo from Monsters Inc
