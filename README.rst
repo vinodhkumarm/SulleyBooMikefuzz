@@ -1,4 +1,4 @@
-boofuzz: Network Protocol Fuzzing for Humans
+boofuzz: Protocol Fuzzing for Healthcare
 ============================================
 
 .. image:: https://travis-ci.org/jtpereyda/boofuzz.svg?branch=master
