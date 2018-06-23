@@ -1,4 +1,4 @@
-boofuzz: Protocol Fuzzing for Healthcare
+The boofuzz of Protocol Fuzzing for Healthcare
 ============================================
 
 .. image:: https://travis-ci.org/jtpereyda/boofuzz.svg?branch=master
@@ -12,61 +12,51 @@ boofuzz: Protocol Fuzzing for Healthcare
     :alt: Join the chat at https://gitter.im/jtpereyda/boofuzz
     :target: https://gitter.im/jtpereyda/boofuzz?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge
 
-Boofuzz is a fork of and the successor to the venerable `Sulley`_ fuzzing
-framework. Besides numerous bug fixes, boofuzz aims for extensibility.
-The goal: fuzz everything.
+SulleyBooMikefuzz is a fork of booFuzz and booFuzz is the successor to the venerable `Sulley`_ fuzzing
+framework. 
+
+The goal: To fuzz 3 major Healthcare related protocols such as DICOM, HL7 and Web services.
 
 Why?
 ----
 
-Sulley has been the preeminent open source fuzzer for some time, but has
-fallen out of maintenance.
+Boo Fuzz is very vast, customization would take a lot of time especially while creating models for 3 core Healthcare realted protocols
 
 Features
 --------
 
-Like Sulley, boofuzz incorporates all the critical elements of a fuzzer:
+Like Sulley & boofuzz, SulleyBooMikeFuzz incorporates all the critical elements of a fuzzer:
 
 -  Easy and quick data generation.
 -  Instrumentation – AKA failure detection.
 -  Target reset after failure.
 -  Recording of test data.
 
-Unlike Sulley, boofuzz also features:
+SulleyBooMikefuzz also features:
 
--  Online `documentation`_.
--  Support for arbitrary communications mediums.
--  Built-in support for serial fuzzing, ethernet- and IP-layer, UDP broadcast.
--  Better recording of test data -- consistent, thorough, clear.
+-  Built-in support for fuzzing Helathcare specific datamodels for such as DICOM, HL7 and Web services
+-  Better recording of test data.
 -  Test result CSV export.
 -  *Extensible* instrumentation/failure detection.
--  Much easier install experience!
--  Far fewer bugs.
+-  Easier install experience!
 
 Sulley is affectionately named after the giant teal and purple creature
 from Monsters Inc. due to his fuzziness. Boofuzz is likewise named after
-the only creature known to have scared Sulley himself: Boo!
+the only creature known to have scared Sulley himself: Boo! And SulleyBooMikeFuzz is named after the combination of 3 of the major challenging fuzzing aspects in healthcare.
 
 .. figure:: _static/sulley_boo_mike.JPG
-   :alt: Boo from Monsters Inc
-
-   Boo from Monsters Inc
+   :alt: Boo Sulley and Mike from Monsters Inc
 
 Installation
 ------------
 ::
 
-    pip install boofuzz
+    pip install sbmfuzz
 
 
-Boofuzz installs as a Python library used to build fuzzer scripts. See
+SulleyBooMikefuzz installs as a Python library used to build fuzzer scripts. See
 `INSTALL.rst`_ for advanced and detailed instructions.
 
-
-Documentation
--------------
-
-Documentation is available at http://boofuzz.readthedocs.io/, including nifty quickstart guides.
 
 Contributions
 -------------
