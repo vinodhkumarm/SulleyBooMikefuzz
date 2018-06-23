@@ -12,7 +12,7 @@ The boofuzz of Protocol Fuzzing for Healthcare
     :alt: Join the chat at https://gitter.im/jtpereyda/boofuzz
     :target: https://gitter.im/jtpereyda/boofuzz?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge
 
-SulleyBooMikefuzz is a fork of `boofuzz`_ and booFuzz is the successor to the venerable `Sulley`_ fuzzing
+SulleyBooMikefuzz is a fork of boofuzz_ and booFuzz is the successor to the venerable `Sulley`_ fuzzing
 framework. 
 
 The goal: To fuzz 3 major Healthcare related protocols such as DICOM, HL7 and Web services.
